@@ -48,7 +48,7 @@ var app = new Vue({
     validateForm: function () {
       if (this.wish == '') {
         iziToast.error({
-          message: 'دوست خوبم. چند حرفی برامون بنویس توی فرم',
+          message: 'دوست خوبم. لطفا چند حرفی برام بنویس توی فرم',
         });
         return false;
       }
