@@ -1,0 +1,20 @@
+{
+  "name": "whatisyourwish",
+  "version": "1.0.0",
+  "description": "Simple Form to get wish of peoples",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Mohammad.H.Javanbakht",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
